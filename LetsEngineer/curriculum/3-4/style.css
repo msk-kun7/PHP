@@ -1,0 +1,57 @@
+header{
+    display: flex;
+}
+.logo{
+    width:200px;
+    height:120px;
+    background-color: #add8e6;
+}
+.logo > img{
+    width: 200px;
+    height: auto;
+}
+.name_date{
+    width:800px;
+    height:120px;
+    
+}
+.name_tag{
+    height:60px;
+    background-color: #87ceeb;
+    text-align: right;
+    line-height: 60px;
+}
+.date_tag{
+    height:60px;
+    background-color: #00ffff;
+    text-align: right;
+    line-height: 60px;
+}
+
+table {
+    border-collapse: collapse; 
+    border-style: solid; 
+    border-color: white;
+    border:"1";
+    text-align: center;
+    margin: 10px auto;
+}
+th{
+    border-collapse: collapse; 
+    border-style: solid; 
+    border-color: white;
+    border:"1";
+    background-color: #87ceed;
+}
+td{
+    border-collapse: collapse; 
+    border-style: solid; 
+    border-color: white;
+    border:"1";
+    background-color: #e0ffff;
+}
+footer {
+    height: 50px;
+    background-color: #00ced1;
+    
+}
