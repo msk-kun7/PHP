@@ -1,0 +1,56 @@
+.tweet{
+    max-width:400px;
+    margin: auto;
+}
+.tweet-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.tweet-header{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.tweet-body{
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+h6 {
+    background-color: white;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+.tubuyaku{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 10px;
+}
+.tweet-history{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.tr-border{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.td-date{
+    text-align: right;
+}
+.td-text{
+    text-align: right;
+}
+.delete-btn{
+    color: red;
+}
