@@ -1,0 +1,19 @@
+body {
+    color: white;
+    background-color: grey;
+    text-align: center;
+}
+h1{
+    margin-top: 130px;
+    margin-bottom: 0px;
+}
+hr {
+    background-color: white;
+}
+.index-form{
+    margin-top: 50px;
+}
+.radio_web,.radio_namber,.radio_command{
+    display:flex;
+    justify-content: center;
+}
